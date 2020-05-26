@@ -9,6 +9,7 @@ signs_lib.register_sign("default:sign_wall_wood", {
 		-- items 3 - 5 are not set, so signs_lib will use its standard pole
 		-- mount, hanging, and yard sign stick textures.
 	},
+	locked = true,
 	entity_info = "standard",
 	allow_hanging = true,
 	allow_widefont = true,
